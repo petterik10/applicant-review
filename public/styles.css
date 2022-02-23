@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: blue;
+} */
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.addInfo {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+}
